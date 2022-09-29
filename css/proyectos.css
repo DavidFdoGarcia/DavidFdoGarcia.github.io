@@ -1,0 +1,21 @@
+.proyectos h3
+{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.proyectos p
+{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a
+{
+    color: #fff;
+    align-items: center;
+}

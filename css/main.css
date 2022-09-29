@@ -1,0 +1,71 @@
+.main
+{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: .5fr 3fr 1fr;
+}
+.main img
+{
+    border-radius: 50%;
+    width: 200px;
+    position: sticky;
+    top: 20px;
+}
+
+    .foto
+    {
+        grid-column: 1/2;
+       
+    }
+
+.section-main
+{
+    grid-column: 2/3;
+    padding: 20px;
+    font-size: 25px;
+}
+
+    .section-main h3
+    {
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .section-main p
+    {
+        text-align: center;
+    }
+    
+.main .sidebar
+{
+
+}
+    .sidebar ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 25px;
+        background-color: rgb(94, 22, 210);
+        position: sticky;
+        top: 20px;
+    }
+    .sidebar ul li
+    {
+        display: inline;
+    
+        text-decoration: none;
+    }
+
+    .sidebar ul li a
+    {
+        text-decoration: none;
+        color: #fff;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .sidebar ul li a:hover
+    {
+        text-decoration: underline;
+    }
+

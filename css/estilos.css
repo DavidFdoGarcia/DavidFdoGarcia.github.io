@@ -1,0 +1,71 @@
+@import url(nav.css);
+@import url(redes.css);
+@import url(particulas.css);
+@import url(header.css);
+@import url(main.css);
+@import url(carroucel.css);
+@import url(proyectos.css);
+@font-face
+{
+    font-family: RONDALO;
+    src: url(fonts/RONDALO.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background: #000;
+}
+
+.container
+{
+    background: rgba(255, 255, 255,0.1);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container > .header,
+.container > .main,
+.container > .herramientas,
+.container > .footer
+.container > .proyectos
+{
+    background: rgba(255, 255, 255,0.1);
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.container > .header,
+.container > .main,
+.container > .herramientas,
+.container > .proyectos,
+.container > .footer
+{
+    grid-column: 1/4;
+    background: rgba(255, 255, 255,0.1);
+    color: #fff;
+}
+
+.footer
+{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
