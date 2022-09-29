@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <div class="container">  <!--  CONTENEDOR PRINCIPAL -->
+        <div id="particles-js"></div>
+        <header class="header">
+            
+            <nav class="navbar-principal">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                    <li><a href="#soy"><i class="fa-solid fa-address-card"></i>Sobre mi</a></li>
+                    <li><a href="#herramientas"><i class="fa-solid fa-marker"></i>Herramientas</a></li>
+                    <li><a href="#proyectos"><i class="fa-solid fa-rocket"></i>Proyectos</a></li>
+                </ul>
+            </nav>
+        
+            <section class="baner">
+                <h1 class="titulo"><span class="typed"></span></h1>
+            </section>
+        </header>
+       
+        <main class="main" id="soy">
+            <div class="foto">
+                <img src="img/mi-foto.png" alt="">
+            </div>
+            
+            <div class="section-main">
+                <article class="article" id="article1">
+                    <h3>¿Quién soy?</h3>
+                    <p>ISC. David Fernando García Narváez<br>
+                        31 años <br>
+                        Egresado del Instituto Tecnólogico Superior  de San Luis Potosi, Capital <br>
+                        San Luis Potosi, México.<br>
+                        davidfdo.garcia@gmail.com
+                    </p>
+                </article>
+                
+                <article class="article" id="article2">
+                    <h3>Experiencia</h3>
+                    <p>Computadoras Centro de Servicio <br>
+                        Programador. 2019-Presente. <br><br>
+                        PC Solución <br>
+                        Residencia Profesional 2018-2019</p>
+                </article>
+                
+                <article class="article" id="article3">
+                    <h3>Idiomas</h3>
+                    <p>Inglés nivel B2 <br>
+                       Alemán nivel A2<br>
+                       Francés nivel A1<br></p>
+                </article>
+                
+                <article class="article" id="article4">
+                    <h3>Pasatiempos</h3>
+                    <p>Gimnacio <br>
+                    Aprender idiomas<br>
+                    Leer libros<br>
+                    Ajedrez<br>
+                    Aprender cosas nuevas</p>
+                </article>
+            </div>
+
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#article1">¿Quién soy?</a></li>
+                    <li><a href="#article2">Experiencia</a></li>
+                    <li><a href="#article3">Idiomas</a></li>
+                    <li><a href="#article4">Pasatiempos</a></li>
+                </ul>
+            </div>
+
+        </main>
+
+        <section class="herramientas" id="herramientas">
+            <h3>Herramientas</h3>
+
+            
+		<div class="carousel">
+			<div class="carousel__contenedor">
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel__lista">
+					<div class="carousel__elemento">
+						<img src="img/slider/c.png" alt="Rock and Roll Hall of Fame">
+						<p>C#</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/slider/css.png" alt="CSS">
+						<p>CSS</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/slider/git.png" alt="GitHub">
+						<p>GIT</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/slider/html.png" alt="HTML5">
+						<p>HTML5</p>
+					</div>
+	
+					<div class="carousel__elemento">
+						<img src="img/slider/mysql.png" alt="MySQL">
+						<p>MySQL</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/slider/php.png" alt="PHP">
+						<p>PHP</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/slider/sql.png" alt="Sql Server">
+						<p>SQL Server</p>
+					</div>
+					
+				</div>
+
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+            <h3>Proyectos</h3>
+            <p>Sistema de código de barras(C# con access) <br></p>
+            <p>Página web de empresa(html y css) <br></p>
+            <p>Sistema de registro de productos(C# con SQLserver) <br></p>
+            <p><a href="https://github.com/DavidFdoGarcia"><i class="fa-brands fa-github"></i><br>Github</a></p>
+        </section>
+
+        <footer class="footer">
+           @Realizado por David Fernando Grcía Narvaez, 2022 San Luis potosi.
+        </footer>
+
+         <!--container-redes-sociales-->
+
+    <div class="container-redes">
+
+        <a href="https://api.whatsapp.com/send?phone=4444682997&text=hola, vi tu portafolio y me puse en contacto contigo" target="_blank">
+
+            <img src="img/icon-whatsapp.png" title="Enviar mensaje de WhatsApp" alt="">
+
+        </a>
+
+        <a href="https://m.me/davidfernando.garcianarvaez" target="_blank">
+
+            <img src="img/icon-messenger.png" alt="" title="Enviar mensaje por Messenger">
+
+        </a>
+
+    </div>
+   </div> <!--FIN DEL CONTENEDOR PRINCIPAL -->
+
+   <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+   <script src="js/slider.js"></script>
+   <script src="js/particles.js"></script>
+        <script src="js/particulas.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="./js/main-escritura.js"></script>
+</body>
+</html>
